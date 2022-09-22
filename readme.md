@@ -24,3 +24,13 @@ The bioinformatics process followed, through which an extended annotation of the
 - [TSV file with the extended annotation of the genome](./files/annotation.tsv)
 
 - [R package with the extended genome annotation for Antirrhinum majus](./files/org.Amajus2.eg.db.zip)
+
+
+##  CONTACT
+
+Jesualdo Tomás Fernández Breis (jfernand@um.es)
+
+Marcos Egea Gutiérrez-Cotines (marcos.egea@upct.es)
+
+Nuria Bernabé Mulero (nuria.bernabem@um.es)
+
