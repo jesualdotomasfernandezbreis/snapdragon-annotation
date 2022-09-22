@@ -1,12 +1,19 @@
 
-# The Gene Regulation Application Ontology (GRAO)
+#  AUTOMATIC EXTENSION OF THE ANNOTATION OF THE SNAPDRAGON GENOME
 
-GRAO is a GREEKC Consortium development which describes knowledge relevant to the domain of gene regulation. GRAO is an upper-level schema that links the parts of the above-described ontologies relevant for gene regulation. GRAO includes specific cellular processes (such as the binding of dbTFs to DNA binding sites) and the elements involved in those processes (dbTFs and other proteins), but those elements should be reused from existing ontologies. The next figure shows the major classes and relationships that are part of GRAO. This shows the use of prefixes such as GO or SO, which means that those terms are reused from the corresponding ontologies.
+##  DESCRIPTION 
+
+The [Genome Annotation of the Snapdragon Genome V2.0] (http://bioinfo.sibs.ac.cn/Am/download_v2.php) included Gene Ontology annotations for 20820 out of 37234 genes (56%). Given that almost half of the genes remained unannotated, we have implemented a method for increasing the number of annotated genes in Antirrhinum majus by using as reference the annotations of the genes of Solanum lycopersicum and Arabidopsis thaliana.
+
+Figure 1 describes the bioinformatics process followed, through which an extended annotation of the genome was obtained, with 26109 genes annotated (70% of the genome).
+
 
 [Download the OWL file](./grao.owl)
 
 ![The Gene Regulation High Level Simplified Schema](./grao.png "The Gene Regulation High Level Simplified Schema")
 
+
+##  DATASETS
 
 
 
