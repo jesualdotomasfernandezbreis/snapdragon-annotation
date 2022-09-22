@@ -24,5 +24,6 @@ Figure 1 describes the bioinformatics process followed, through which an extende
 ##  DATASETS
 
 
-[TSV file with the extended annotation of the genome](./files/annotation.tsv)
-[R package with the extended genome annotation for Antirrhinum majus](./files/org.Amajus2.eg.db.zip)
+- [TSV file with the extended annotation of the genome](./files/annotation.tsv)
+
+- [R package with the extended genome annotation for Antirrhinum majus](./files/org.Amajus2.eg.db.zip)
