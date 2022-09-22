@@ -5,7 +5,7 @@
 
 The [Genome Annotation of the Snapdragon Genome V2.0](http://bioinfo.sibs.ac.cn/Am/download_v2.php) included Gene Ontology annotations for 20820 out of 37234 genes (56%). Given that almost half of the genes remained unannotated, we have implemented a method for increasing the number of annotated genes in Antirrhinum majus by using as reference the annotations of the genes of Solanum lycopersicum and Arabidopsis thaliana.
 
-Figure 1 describes the bioinformatics process followed, through which an extended annotation of the genome was obtained, with 26109 genes annotated (70% of the genome). 
+The bioinformatics process followed, through which an extended annotation of the genome was obtained, is described next, obtaining an annotation with 26109 genes annotated (70% of the genome):
 
 - Step 1: Find potential orthologs from Solanum lycopersicum and Arabidopsis thaliana. A best bi-directional hit approach was followed between the genes of the genomes by pairs (Antirrhinum majus vs Solanum lycopersicum and Antirrhinum majus vs Arabidopsis thaliana). The output is a set of candidate pairs of genes from the species compared.
 
@@ -16,9 +16,6 @@ Figure 1 describes the bioinformatics process followed, through which an extende
 - Step 4: Filtering by direction. Only those pairs of genes that have passed the previous filters in both directions are kept. This means that if the candidate pair (Gene_X_Antirrhinum_majus ==>Gene_Y_Solanum_lycopersicum) has passed the filters but not the pair(Gene_Y_Solanum_lycopersicum ==> Gene_X_Antirrhinum_majus), then the former is also discarded.
 
 - Step 5: Selection: For each Antirrhinum majus gnene, select the gene from the other species with largest e-value amongst the pairs that have passed the three filters.
-
-
-![The Gene Regulation High Level Simplified Schema](./grao.png "The Gene Regulation High Level Simplified Schema")
 
 
 ##  DATASETS
